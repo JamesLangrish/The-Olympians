@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lora&display=swap");
+
+/* Reset */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+
+:root {
+  --FONT: "Cinzel", serif;
+  --FONTTWO: "Lora", serif;
+  --COLORONE: BLACK;
+  --COLORTWO: white;
+  --COLORTHREE: #e17a00;
+  --PADDING: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-image: url(../images/clouds.jpg);
+  background-size: cover;
+  background-color: var(--COLORONE);
+}
+
+body {
+  background-color: var(--COLORONE);
+  max-width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 15px;
+}
+
+.header-img {
+  width: 85px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 57.594328px;
+  font-weight: bold;
+  padding-left: var(--PADDING);
+  font-family: var(--FONT);
+  color: white;
+}
+
+span {
+  color: var(--COLORTHREE);
+}
+
+nav {
+  background: var(--COLORTWO);
+  border-top: solid var(--COLORTHREE) 5px;
+  border-bottom: solid var(--COLORTHREE) 5px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--COLORONE);
+  font-size: 35.596px;
+  padding: 55px;
+  font-family: var(--FONT);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--COLORTHREE);
+}
+
+.first-images {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: var(--PADDING);
+}
+
+.second-images {
+  display: flex;
+  justify-content: space-evenly;
+  padding: var(--PADDING) 0;
+  border-bottom: solid 10px white;
+}
+
+.main-images {
+  border: 1px var(--COLORTHREE) solid;
+  border-radius: 15px;
+}
+
+figcaption {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+figcaption a {
+  color: var(--COLORTWO);
+  text-decoration: none;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+figcaption a:hover {
+  font-weight: bolder;
+  text-shadow: 2px 2px rgb(122, 119, 119);
+}

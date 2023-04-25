@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lora&display=swap");
+
+/* Reset */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+
+:root {
+  --FONT: "Cinzel", serif;
+  --FONTTWO: "Lora", serif;
+  --COLORONE: BLACK;
+  --COLORTWO: white;
+  --COLORTHREE: #e17a00;
+  --PADDING: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-image: url(../images/clouds.jpg);
+  background-size: cover;
+  background-color: var(--COLORONE);
+}
+
+body {
+  background-color: var(--COLORTWO);
+  max-width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.mainheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-img {
+  width: 85px;
+  height: auto;
+  padding-top: 7px;
+  padding-right: 5px;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 57.594328px;
+  font-weight: bold;
+  padding-left: var(--PADDING);
+  font-family: var(--FONT);
+}
+
+span {
+  color: var(--COLORTHREE);
+}
+
+nav {
+  background: black;
+  border-top: solid var(--COLORTHREE) 5px;
+  border-bottom: solid var(--COLORTHREE) 5px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 35.596px;
+  padding: 55px;
+  font-family: var(--FONT);
+}
+
+nav a:hover {
+  color: var(--COLORTHREE);
+}
+
+h2 {
+  font-size: 35.596px;
+  padding: var(--PADDING);
+  font-family: var(--FONT);
+  font-weight: bolder;
+}
+
+p {
+  font-size: 22px;
+  font-family: var(--FONTTWO);
+  font-weight: 600;
+  padding: 0 var(--PADDING);
+}
+
+.main-content {
+  padding-bottom: 50px;
+  border-bottom: 10px solid black;
+}

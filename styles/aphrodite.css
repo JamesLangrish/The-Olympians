@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lora&display=swap");
+
+/* Reset */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+
+:root {
+  --FONT: "Cinzel", serif;
+  --FONTTWO: "Lora", serif;
+  --FONTCOLOR: white;
+  --BODYBACKGROUND: black;
+  --COLORTHREE: #e17a00;
+  --PADDING: 0.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-image: url(../images/clouds.jpg);
+  background-size: contain;
+  background-color: black;
+}
+
+body {
+  background-color: var(--BODYBACKGROUND);
+  color: var(--FONTCOLOR);
+  max-width: 1100px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.header-img {
+  width: 85px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 57.594328px;
+  font-weight: bold;
+  padding-left: var(--PADDING);
+  font-family: var(--FONT);
+}
+
+span {
+  color: var(--COLORTHREE);
+}
+
+nav {
+  background: var(--FONTCOLOR);
+  border-top: solid var(--COLORTHREE) 5px;
+  border-bottom: solid var(--COLORTHREE) 5px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--BODYBACKGROUND);
+  font-size: 35.596px;
+  padding: 55px;
+  font-family: var(--FONT);
+  font-weight: bolder;
+}
+
+nav a:hover {
+  color: var(--COLORTHREE);
+}
+
+.main-section {
+  display: flex;
+  font-family: var(--FONTTWO);
+  border-bottom: 5px white solid;
+  padding-bottom: var(--PADDING);
+}
+
+.main-image {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.textbox {
+  display: block;
+  justify-content: right;
+  padding: 40px;
+}
