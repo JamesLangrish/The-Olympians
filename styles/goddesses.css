@@ -163,6 +163,11 @@ figcaption a:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 20px;
+  }
+
+  .second-images {
+    padding-bottom: 40px;
   }
 
   .main-images {
