@@ -106,3 +106,38 @@ p {
   padding-bottom: 50px;
   border-bottom: 10px solid black;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: var(--COLORTWO);
+    max-width: 100%;
+    max-height: fit-content;
+    line-height: 36px;
+  }
+
+  h1 {
+    font-size: 36px;
+    padding: 20px;
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  nav {
+    padding: 20px 0;
+  }
+
+  nav a {
+    font-size: 22.24px;
+    padding: 16px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
