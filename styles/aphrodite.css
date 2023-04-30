@@ -15,17 +15,17 @@
 :root {
   --FONT: "Cinzel", serif;
   --FONTTWO: "Lora", serif;
-  --FONTCOLOR: white;
-  --BODYBACKGROUND: black;
+  --COLORONE: rgba(0, 0, 0, 0.95);
+  --COLORTWO: #f2f2f2;
   --COLORTHREE: #e17a00;
-  --PADDING: 0.5rem;
+  --PADDING: 25px;
 }
 
 html {
   scroll-behavior: smooth;
   background-image: url(../images/clouds.jpg);
   background-size: cover;
-  background-color: black;
+  background-color: var(--COLORONE);
 }
 
 body {
@@ -93,7 +93,7 @@ nav a:hover {
 
 .main-section {
   font-family: var(--FONTTWO);
-  border-bottom: 5px white solid;
+  border-bottom: 5px var(--COLORTWO) solid;
   padding-bottom: var(--PADDING);
 }
 
@@ -166,7 +166,7 @@ img {
     background-color: black;
     /* display: flex; */
     font-family: var(--FONTTWO);
-    border-bottom: 5px white solid;
+    border-bottom: 5px var(--COLORTWO) solid;
     padding-bottom: var(--PADDING);
   }
 }
