@@ -15,8 +15,8 @@
 :root {
   --FONT: "Cinzel", serif;
   --FONTTWO: "Lora", serif;
-  --COLORONE: BLACK;
-  --COLORTWO: white;
+  --COLORONE: rgba(0, 0, 0, 0.95);
+  --COLORTWO: #f2f2f2;
   --COLORTHREE: #e17a00;
   --PADDING: 25px;
 }
@@ -62,7 +62,7 @@ span {
 }
 
 nav {
-  background: black;
+  background: var(--COLORONE);
   border-top: solid var(--COLORTHREE) 5px;
   border-bottom: solid var(--COLORTHREE) 5px;
 }
@@ -79,7 +79,7 @@ nav ul li {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: var(--COLORTWO);
   font-size: 35.596px;
   padding: 55px;
   font-family: var(--FONT);
@@ -103,8 +103,8 @@ h2 {
 }
 
 .footer-container {
-  background-color: black;
-  color: white;
+  background-color: var(--COLORONE);
+  color: var(--COLORTWO);
   padding: 14px;
   display: flex;
   justify-content: center;
