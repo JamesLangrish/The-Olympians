@@ -137,15 +137,18 @@ img {
   }
 
   nav a {
-    font-size: 22.24px;
+    font-size: 18px;
     padding: 16px;
+    font-weight: bolder;
   }
 
   img {
-    width: 100px;
+    width: 125px;
     height: auto;
     float: left;
-    margin: 20px 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
     padding: 0;
   }
 
