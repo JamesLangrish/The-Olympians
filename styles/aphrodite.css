@@ -121,11 +121,14 @@ img {
     display: flex;
     justify-content: center;
     align-content: center;
+    background-image: url(../images/clouds.jpg);
+    background-size: 600%;
   }
 
   h1 {
     font-size: 36px;
     padding: 20px;
+    text-shadow: 2px 2px var(--COLORONE);
   }
 
   .header-img {
