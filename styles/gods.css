@@ -15,8 +15,8 @@
 :root {
   --FONT: "Cinzel", serif;
   --FONTTWO: "Lora", serif;
-  --COLORONE: BLACK;
-  --COLORTWO: white;
+  --COLORONE: rgba(0, 0, 0, 0.95);
+  --COLORTWO: #f2f2f2;
   --COLORTHREE: #e17a00;
   --PADDING: 25px;
 }
@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: var(--COLORONE);
   padding: 15px;
 }
 
@@ -56,7 +56,7 @@ h1 {
   font-weight: bold;
   padding-left: var(--PADDING);
   font-family: var(--FONT);
-  color: white;
+  color: var(--COLORTWO);
 }
 
 span {
@@ -108,7 +108,7 @@ nav a:hover {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: var(--PADDING);
-  border-bottom: solid 10px white;
+  border-bottom: solid 10px var();
 }
 
 .main-images {
