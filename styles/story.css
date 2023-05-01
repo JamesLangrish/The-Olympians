@@ -15,7 +15,7 @@
 :root {
   --FONT: "Cinzel", serif;
   --FONTTWO: "Lora", serif;
-  --COLORONE: rgba(0, 0, 0, 0.95);
+  --COLORONE: rgba(0, 0, 0, 0.925);
   --COLORTWO: #f2f2f2;
   --COLORTHREE: #e17a00;
   --PADDING: 25px;
@@ -35,7 +35,7 @@ body {
   margin: 0 auto;
 }
 
-.mainheader {
+.main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,10 +54,6 @@ h1 {
   font-weight: bold;
   padding-left: var(--PADDING);
   font-family: var(--FONT);
-}
-
-span {
-  color: var(--COLORTHREE);
 }
 
 nav {
@@ -115,9 +111,18 @@ p {
     line-height: 36px;
   }
 
+  .main-header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--COLORTWO);
+  }
+
   h1 {
     font-size: 36px;
     padding: 20px;
+    padding-left: 0;
+    align-items: center;
+    color: var(--COLORONE);
   }
 
   .header-img {
@@ -129,7 +134,7 @@ p {
   }
 
   nav a {
-    font-size: 22.24px;
+    font-size: 24px;
     padding: 16px;
   }
 

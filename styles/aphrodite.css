@@ -15,7 +15,7 @@
 :root {
   --FONT: "Cinzel", serif;
   --FONTTWO: "Lora", serif;
-  --COLORONE: rgba(0, 0, 0, 0.95);
+  --COLORONE: rgba(0, 0, 0, 0.925);
   --COLORTWO: #f2f2f2;
   --COLORTHREE: #e17a00;
   --PADDING: 25px;
@@ -58,10 +58,6 @@ h1 {
   font-family: var(--FONT);
 }
 
-span {
-  color: var(--COLORTHREE);
-}
-
 nav {
   background: var(--COLORTWO);
   border-top: solid var(--COLORTHREE) 5px;
@@ -97,7 +93,7 @@ nav a:hover {
   padding-bottom: var(--PADDING);
 }
 
-img {
+.float-image {
   float: left;
   border-radius: 5px;
   padding: 43px;
@@ -120,15 +116,16 @@ img {
   .main-header {
     display: flex;
     justify-content: center;
-    align-content: center;
-    background-image: url(../images/clouds.jpg);
-    background-size: 600%;
+    background-color: var(--COLORONE);
+    background-size: cover;
   }
 
   h1 {
     font-size: 36px;
     padding: 20px;
-    text-shadow: 2px 2px var(--COLORONE);
+    padding-left: 0;
+    align-items: center;
+    color: var(--COLORTWO);
   }
 
   .header-img {
@@ -145,7 +142,7 @@ img {
     font-weight: bolder;
   }
 
-  img {
+  .float-image {
     width: 125px;
     height: auto;
     float: left;
